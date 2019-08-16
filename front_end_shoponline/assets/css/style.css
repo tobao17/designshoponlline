@@ -1,0 +1,181 @@
+.header-button {
+  font-size: 16px;
+  /* font-size: 1rem; */
+  display: inline-flex;
+  align-items: center;
+}
+.header-button .title {
+  white-space: nowrap;
+
+  font-style: italic;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  padding: 0 20px;
+}
+.header-button .amount {
+  line-height: 1;
+  color: #000;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.header-button .count {
+  background-color: #ef2840;
+  color: #fff;
+  opacity: 1;
+  margin-right: 20px;
+  margin-left: 5px;
+  font-size: 12px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  min-width: 24px;
+  text-align: center;
+  border-radius: 100%;
+
+  padding: 0 3px;
+}
+.header-button .box-cart {
+  border-left: 1px solid #dadada;
+  margin-left: 20px;
+}
+.padding {
+  padding: 39px 30px 39px 30px;
+}
+.canchinh {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-style: italic;
+}
+.canchinh2 {
+  display: flex;
+  justify-content: center;
+}
+.canchinh3 {
+  display: flex;
+  justify-content: flex-end;
+}
+.divider {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #363636;
+  width: 100%;
+}
+.padding_nav {
+  padding: 10px 30px;
+}
+.elementmenu {
+  font-family: "Oswald", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  margin-right: 270px;
+}
+.paddinglink {
+  padding: 10px 0px;
+}
+.css_li {
+  margin-right: 50px;
+}
+.cssjumbotron {
+  padding: 10px;
+  background-color: #f1f3f7;
+  display: flex;
+  justify-content: center;
+}
+.cssjumbotron .fas {
+  padding: 9px 30px;
+  vertical-align: middle;
+}
+.cssjumbotron a span {
+  color: #696969;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 30px;
+}
+.csscontentimage .flex-control-thumbs {
+  flex-grow: 0;
+  flex-shrink: 200px;
+  flex-basis: 70px;
+}
+.csscontentimage ol li {
+  padding: 5px;
+  list-style: none;
+  cursor: pointer;
+}
+.inner h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.inner .price span {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  color: #000;
+}
+.inner .price {
+  margin-right: 280px;
+}
+.inner .rattingstart {
+  margin-bottom: 25px;
+}
+.inner .text p {
+  font-size: 15px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  /* word-spacing: px; */
+  line-height: 2;
+}
+.buttons_added {
+  position: relative;
+  font-size: 14px;
+  font-size: 0.875rem;
+
+  width: 100px;
+}
+.buttons_added .input-text {
+  /* padding: 10px 0;
+  border-color: #000;
+  margin-right: -30px;
+  padding-left: 50px; */
+  width: 70px;
+  height: 44px;
+  padding-left: 30px;
+  border: 1px solid #000;
+  border-right: none;
+}
+.buttons_added .minus {
+  position: absolute;
+  width: 30px;
+  height: 22px;
+  bottom: 0px;
+
+  background-color: transparent;
+  border: 1px solid #000;
+  padding-top: -1px;
+  left: 68px;
+}
+.buttons_added .plus {
+  position: absolute;
+  width: 30px;
+  height: 22px;
+  top: 0px;
+
+  left: 68px;
+  border: 1px solid #000;
+  border-bottom: none;
+  border-color: #000;
+  background-color: transparent;
+}
