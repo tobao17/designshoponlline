@@ -179,3 +179,78 @@
   border-color: #000;
   background-color: transparent;
 }
+.single_add_to_cart_button {
+  padding: 0px 80px;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+.posted_in {
+  font-style: italic;
+}
+.posted_in a {
+  font-size: 11px;
+  font-style: initial;
+}
+.shop_attributes tr th {
+  background-color: #f4f4f4;
+  width: 150px;
+  border: 1px solid #e9ecef;
+  padding: 10px 20px;
+}
+.shop_attributes td {
+  border: 1px solid #e9ecef;
+  padding: 10px 70px;
+}
+.woocommerce-review__author {
+  display: flex;
+}
+.woocommerce-review__published-date {
+  font-size: 11px;
+}
+.kichcochu {
+  font-size: 15px;
+}
+.font {
+  font-family: "Oswald", sans-serif;
+}
+.redsquare {
+  font-size: 1.25rem;
+  margin-bottom: 1.2em;
+  color: #000;
+  text-transform: uppercase;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: #ef2840;
+  line-height: 22px;
+  padding-left: 10px;
+  letter-spacing: 0.2em;
+}
+.product-image {
+  position: relative;
+  height: auto;
+}
+.product-image1 {
+  background-color: rebeccapurple;
+  height: 10000px;
+  width: 100%;
+}
+.product-image .image1 {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  transition: all 0.5s;
+}
+.product-image .image2 {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.product-image .image2:hover {
+  opacity: 1;
+}
+.textzindex {
+  position: absolute;
+  top: 500px;
+}
