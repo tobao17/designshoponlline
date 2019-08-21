@@ -51,7 +51,96 @@
   justify-content: center;
   flex-direction: column;
   font-style: italic;
+  position: relative;
 }
+
+/* form dang nhap  */
+.canchinh:hover .card {
+  opacity: 1;
+}
+.formdangnhap .card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  opacity: 0;
+  text-align: left;
+  left: 0;
+  top: 100%;
+  position: absolute;
+  transition: all 0.35s;
+  /* opacity: 0; */
+  z-index: 99;
+  pointer-events: auto;
+  /* visibility: hidden; */
+  /* color: #000; */
+  padding-top: 15px;
+}
+
+.formdangnhap .social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.formdangnhap .social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.formdangnhap .card-header h3 {
+  color: white;
+}
+
+.formdangnhap .social_icon {
+  position: absolute;
+  right: 20px;
+  top: -20px;
+}
+
+.formdangnhap .input-group-prepend span {
+  width: 50px;
+  background-color: #ffc312;
+  color: black;
+  border: 0 !important;
+}
+
+.formdangnhap input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.formdangnhap .remember {
+  color: white;
+}
+
+.formdangnhap .remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.formdangnhap .login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+}
+
+.formdangnhap .login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.formdangnhap .links {
+  color: white;
+}
+
+.formdangnhap .links a {
+  margin-left: 4px;
+}
+/* het form dang nhap  */
 .canchinh2 {
   display: flex;
   justify-content: center;
