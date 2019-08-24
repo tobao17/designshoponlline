@@ -145,16 +145,7 @@
   display: flex;
   justify-content: center;
 }
-.canchinh3 {
-  display: flex;
-  justify-content: flex-end;
-}
-.divider {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #363636;
-  width: 100%;
-}
+
 .padding_nav {
   padding: 10px 30px;
 }
